@@ -1,0 +1,7 @@
+*.bowtie.gz
+bed/
+binary/
+output/
+files_to_compare.txt
+filetable.txt
+.snakemake*

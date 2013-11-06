@@ -1,0 +1,8 @@
+c-Myc_MEL.bed http://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodeSydhTfbs/wgEncodeSydhTfbsMelCmycIggrabPk.narrowPeak.gz
+Rad21_MEL.bed http://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodeSydhTfbs/wgEncodeSydhTfbsMelRad21IggrabPk.narrowPeak.gz
+CTCF_MEL.bed http://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodeSydhTfbs/wgEncodeSydhTfbsMelCtcfbIggrabPk.narrowPeak.gz
+P300_MEL.bed http://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodeSydhTfbs/wgEncodeSydhTfbsMelP300IggrabPkV2.narrowPeak.gz
+Gata1_erythroblast.bed http://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodePsuTfbs/wgEncodePsuTfbsErythroblGata1aBE14halfCd1InputPk.broadPeak.gz
+Gata1_MEL.bed http://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodeSydhTfbs/wgEncodeSydhTfbsMelGata1IggratPk.narrowPeak.gz
+Tal1_erythroblast.bed http://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodePsuTfbs/wgEncodePsuTfbsErythroblTal1BE14halfCd1InputPk.broadPeak.gz
+Tal1_MEL.bed http://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodePsuTfbs/wgEncodePsuTfbsMelTal1UImmortalC57bl6InputPk.broadPeak.gz
