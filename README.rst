@@ -16,30 +16,30 @@ Prepare
 
 * Download http://compbio.mit.edu/ChromHMM/.
 
-* Edit `config.py` to point to the paths on disk.
+* Edit ``config.py`` to point to the paths on disk.
 
 * Prepare the BED files you'd like to check against chromatin states by adding
-  them to the `compare/links` directory.  There are already some data from
-  related ENCODE data (created by running the `get-data.py` script) and some
+  them to the ``compare/links`` directory.  There are already some data from
+  related ENCODE data (created by running the ``get-data.py`` script) and some
   positive mouse enhancers from enhancer.lbl.gov (from running
-  `enhancer.lbl.gov.py`).  These files are small enough to include in the repo,
+  ``enhancer.lbl.gov.py``).  These files are small enough to include in the repo,
   hence they're not downloaded in the Snakefile.
 
 
 Run
 ---
-* Run `snakemake -npr` as a dry-run to see what will be run.
-* Run `snakemake -pr -j$N` , where $N is the number of CPUs, to run the pipeline.
+* Run ``snakemake -npr`` as a dry-run to see what will be run.
+* Run ``snakemake -pr -j$N`` , where $N is the number of CPUs, to run the pipeline.
 
 
 Output
 ------
-For each number of states `$s`, see:
+For each number of states ``$s``, see:
 
-* `output/$s-state/webpage_$s.html` for the states,
-* `output/$s-state/*_enrichment.png` for the enrichment with supplied BED
+* ``output/$s-state/webpage_$s.html`` for the states,
+* ``output/$s-state/*_enrichment.png`` for the enrichment with supplied BED
   files.
-* `output/$s-stats/*_dense.bed` for a BED file to upload to UCSC.
+* ``output/$s-stats/*_dense.bed`` for a BED file to upload to UCSC.
 
 For example, state 2 in this 4-state model has strongest emmission parameters
 for marks we'd expect over enhancers, and has the strongest enrichment for
