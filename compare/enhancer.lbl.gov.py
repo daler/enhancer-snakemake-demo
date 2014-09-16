@@ -39,5 +39,5 @@ human.close()
 mouse.close()
 
 os.system('liftOver -bedPlus=4 %s hg19ToMm9.over.chain.gz human-lifted-to-mm9 unmapped' % human.name)
-os.system('cat mouse.tmp human-lifted-to-mm9 > enhancer.lbl.gov_positive.bed')
+os.system('cat %s human-lifted-to-mm9 > enhancer.lbl.gov_positive.bed' % mouse.name)
 os.system('rm unmapped human-lifted-to-mm9')
